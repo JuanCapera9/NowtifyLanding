@@ -1,0 +1,95 @@
+<section class="bg-light" id="home">
+  <div class="container py-5">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold text-primary mb-4">
+          Transforma tu Vehículo con Nuestros Productos
+        </h2>
+        <p class="fs-5 text-muted mb-4">
+          En Nowtify Logist, ofrecemos una amplia gama de parches y accesorios
+          para automóviles que garantizan el mejor rendimiento y durabilidad.
+          Desde válvulas hasta regrabadoras, nuestros productos están diseñados
+          para mantener tu vehículo en las mejores condiciones. ¡Gracias por
+          confiar en nosotros!
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          src="{{ url_for('static', filename='img/accesorio.png')}}"
+          class="img-fluid rounded shadow-lg"
+          alt="Automotive Accessories"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="container py-5" id="informacion">
+    <div class="row align-items-center g-lg-5 py-5">
+      <div class="col-lg-6 order-lg-last">
+        <h2 class="display-5 fw-bold text-primary mb-4">
+          ¿Cansado de Problemas de Reparación con tu Vehículo?
+        </h2>
+        <p class="fs-5 text-muted mb-4">
+          Sabemos lo frustrante que puede ser enfrentarse a constantes problemas
+          de reparaciones en tu automóvil. Las fallas en las válvulas, la
+          necesidad de parches frecuentes y otros contratiempos pueden
+          interrumpir tu día a día y causar gastos inesperados.
+        </p>
+      </div>
+      <div class="col-lg-6 order-lg-first">
+        <img
+          src="{{ url_for('static', filename='img/neumatico.jpg')}}"
+          class="img-fluid rounded shadow-lg"
+          alt="Automotive Repair"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="container p-10" id="solucion">
+    <div class="row align-items-center justify-content-center g-lg-5 py-5">
+      <div class="col-lg-6 text-center">
+        <div>
+          <h2 class="display-5 fw-bold text-primary mb-4">
+            Transforma tu Experiencia Automotriz
+          </h2>
+          <p class="fs-5 text-muted mb-4">
+            Descubre cómo nuestros productos pueden optimizar el rendimiento y
+            prolongar la durabilidad de tu vehículo. En Nowtify Logist, nos
+            dedicamos a ofrecer soluciones innovadoras que hacen la diferencia.
+          </p>
+        </div>
+        <div id="image-container" class="overflow-hidden rounded shadow-lg">
+          <img
+            src="{{ url_for('static', filename='img/digital.png')}}"
+            class="img-fluid"
+            alt="Inflador Digital"
+            loading="lazy"
+          />
+        </div>
+        <div class="mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-4 text-center mb-4">
+              <a href="#proteccion" class="text-decoration-none text-dark">
+                <i class="fas fa-shield-alt fa-4x mb-3 text-primary"></i>
+                <p class="text-muted mb-0">Mayor Protección</p>
+              </a>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+              <a href="#rendimiento" class="text-decoration-none text-dark">
+                <i class="fas fa-tachometer-alt fa-4x mb-3 text-primary"></i>
+                <p class="text-muted mb-0">Mejor Rendimiento</p>
+              </a>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+              <a href="#reparaciones" class="text-decoration-none text-dark">
+                <i class="fas fa-wrench fa-4x mb-3 text-primary"></i>
+                <p class="text-muted mb-0">Menos Reparaciones</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

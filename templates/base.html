@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %} - Nowtify</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/bootstrap.min.css' )}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/all.min.css' )}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.css' )}}">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/nav.css')}}"
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+</head><style>
+    #home {
+      background-color: #f8f9fa;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    
+    #home h2 {
+      color: #0a6b2f; /* Cambiado a verde */
+      font-weight: bold;
+    }
+    
+    #home p {
+      color: #6c757d;
+      text-align: justify; /* Alinea el texto justificado */
+      text-justify: inter-word; /* Mejora el justificado */
+      max-width: 100%; /* Ajusta el ancho máximo */
+    }
+    
+    #home .btn-primary {
+      background-color: #0a6b2f; /* Cambiado a verde */
+      border-color: #0a6b2f; /* Cambiado a verde */
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(10, 107, 47, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    #home .btn-primary:hover {
+      background-color: #075429; /* Cambiado a verde oscuro */
+      box-shadow: 0 6px 8px rgba(10, 107, 47, 0.2);
+    }
+    
+    #home img {
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    #home img:hover {
+      transform: scale(1.05);
+    }
+    
+    #solution {
+      background-color: #f8f9fa;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    
+    #solution h2 {
+      color: #0a6b2f; /* Cambiado a verde */
+      font-weight: bold;
+    }
+    
+    #solution p {
+      color: #6c757d;
+      text-align: justify;
+      text-justify: inter-word;
+      max-width: 100%;
+    }
+    
+    #solution .btn-primary {
+      background-color: #0a6b2f; /* Cambiado a verde */
+      border-color: #0a6b2f; /* Cambiado a verde */
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(10, 107, 47, 0.1);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    #solution .btn-primary:hover {
+      background-color: #075429; /* Cambiado a verde oscuro */
+      box-shadow: 0 6px 8px rgba(10, 107, 47, 0.2);
+    }
+    
+    #solution img {
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    #solution img:hover {
+      transform: scale(1.1);
+    }
+    </style>
+<body>
+    
+    <!---Contenido de la pagina-->
+    {% block content %}
+    {% endblock %}
+
+    <script src="{{ url_for('static', filename = 'js/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle"></script>
+
+</body>
+</html>

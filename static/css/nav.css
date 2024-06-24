@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #58c793; /* Verde pastel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto de flotación */
+}
+.navbar-brand h1 {
+    color: #1a1919; /* Color de texto más oscuro para contraste */
+}
+.navbar-nav .nav-link {
+    color: #1d3557; /* Color de texto más oscuro para contraste */
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* Un tono más oscuro de azul para el hover */
+}
+.dropdown-menu {
+    transition: all 0.3s ease;
+}
+.dropdown-item:hover {
+    background-color: #457b9d;
+    color: #f1faee; /* Texto blanco en hover */
+}
+body {
+    padding-top: 70px; /* Espacio para el navbar fijo */
+}
